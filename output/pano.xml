@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" hassounds="1" apprev="21010" appversion="7.1.11">
+  <panorama id="node1">
+    <input width="3000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelbias="0.400" levelingpitch="0" levelingroll="0" height="3000">
+      <level width="3000" preload="0" predecode="0" height="3000"/>
+      <level width="1500" preload="0" predecode="0" height="1500"/>
+      <level width="750" preload="0" predecode="0" height="750"/>
+      <level width="375" preload="1" predecode="1" height="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-0.570845" projection="4" fov="120" pan="-2.00416"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" scaletofit="1" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata altitude="-3048.00" nodeid="node1" customnodeid="" copyright="" source="" tags="COOHOM" author="" heading="0" comment="" datetime="" info="" title="LOOK FORM DOOR" latitude="" description="" longitude="">
+      <mapcoords y="-1.75781" mapid="FloorPlan01" x="0.812988" y_floorplan_percent="84.1552" x_floorplan_percent="48.2871"/>
+    </userdata>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label width="180" enabled="1" backgroundcolor="0xffffff" textalpha="1" wordwrap="1" borderradius="1" borderalpha="1" backgroundalpha="1" textcolor="0x000000" background="1" bordercolor="0x000000" border="1" height="20"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
+      <hotspot target="-0.4/0.1/120.0" tilt="-8.33" skinid="ht_node" title="LOOK TO DOR" id="Point01" url="{node2}" pan="-342.53" description=""/>
+    </hotspots>
+    <media>
+      <sound field="90.000" tilt="-1.000" mode="0" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" loop="1" level="1.000" id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000">
+        <source url="media/Dark-Knight-chosic.com_.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" blendtime="1" zoomafteroutfov="40" enabled="1" zoomafterinfov="140" zoomoutpause="1" delay="none" type="crossdissolve" softedge="0" zoomout="0" blendcolor="0x000000" zoomin="0" zoomfov="40"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
+    <control lockedkeyboard="0" contextprojections="0" rubberband="0" invertwheel="0" simulatemass="1" lockedwheel="0" sensitivity="8" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" contextvr="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input width="2000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelbias="0.400" levelingpitch="0" levelingroll="0" height="2000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="181.939" fovmode="2">
+      <start tilt="0.107973" projection="4" fov="120" pan="-0.362732"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" scaletofit="1" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata altitude="-3048.00" nodeid="node2" customnodeid="" copyright="" source="" tags="COOHOM" author="" heading="181.939" comment="" datetime="" info="" title="LOOK TO DOR" latitude="" description="" longitude="">
+      <mapcoords y="-0.615234" mapid="FloorPlan01" x="0.521851" y_floorplan_percent="29.4543" x_floorplan_percent="30.9951"/>
+    </userdata>
+    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
+      <label width="180" enabled="1" backgroundcolor="0xffffff" textalpha="1" wordwrap="1" borderradius="1" borderalpha="1" backgroundalpha="1" textcolor="0x000000" background="1" bordercolor="0x000000" border="1" height="20"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
+      <hotspot target="-2.0/-0.6/120.0" tilt="-5.66" skinid="ht_node" title="LOOK FORM DOOR" id="Point01" url="{node1}" pan="-346.4" description=""/>
+    </hotspots>
+    <media>
+      <sound field="90.000" tilt="-1.000" mode="0" ambientlevel="0.000" startmutedmobile="0" tiltsize="10.000" loop="1" level="1.000" id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000">
+        <source url="media/Dark-Knight-chosic.com_.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" blendtime="1" zoomafteroutfov="40" enabled="1" zoomafterinfov="140" zoomoutpause="1" delay="none" type="crossdissolve" softedge="0" zoomout="0" blendcolor="0x000000" zoomin="0" zoomfov="40"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
+    <control lockedkeyboard="0" contextprojections="0" rubberband="0" invertwheel="0" simulatemass="1" lockedwheel="0" sensitivity="8" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" contextvr="1"/>
+  </panorama>
+  <masternode>
+    <userdata tags="" copyright="" comment="" title="SMALL BEDROOM ASAAM" description="" author=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+  <map index="0" width="1226" tileformat="png" crispedges="0" bgcolor="rgba(255, 255, 255, 1)" zoomlevels="1" type="file" floorplannorth="0" title="" id="FloorPlan01" transparent="0" height="1521"/>
+</tour>
